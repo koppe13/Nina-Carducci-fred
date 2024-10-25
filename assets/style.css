@@ -69,7 +69,7 @@ body {
 }
 
 .picture img {
-	width: 470px;
+	width: 100%;
 	height: 470px;
 }
 #about-me {
@@ -84,7 +84,8 @@ body {
 	font-family: 'Spectral';
 	font-weight: 800;
 	font-style: italic;
-	width: 60%;
+	width: 60%!important;
+	font-size: 1rem!important;
 }
 #about-me p {
 	width: 80%;
@@ -256,8 +257,8 @@ input[type="submit"] {
 		margin-top: 0;
 		margin-bottom: 1em;
 	}
-	#about-me h6, #about-me p {
-		width: 100%;
+	#about-me p {
+		width: 100%!important;
 	}
 }
 
