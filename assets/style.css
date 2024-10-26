@@ -103,13 +103,17 @@ body {
 .gallery .nav {
 	justify-content: center;
 }
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link ::selection {
+	color: #000;
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
-	color: #000
+	color: #000;
+}
+.nav-link.active-tag {
+	background-color: #BEB45A;
+	cursor: pointer;
 }
 .item-column {
 	position: relative;
