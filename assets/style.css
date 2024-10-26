@@ -70,6 +70,7 @@ body {
 
 .picture img {
 	width: 100%;
+	height: fit-content;
 	object-fit: cover;
 }
 #about-me {
