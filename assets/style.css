@@ -94,9 +94,6 @@ body {
 	font-size: 14px;
 }
 
-#gallery {
-	/*	min-height: 100vh; */
-}
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -254,10 +251,6 @@ form textarea {
 input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
-}
-.centrage {
-	display: flex;
-	
 }
 
 @media all and (max-width: 1180px) {
