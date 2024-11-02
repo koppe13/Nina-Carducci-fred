@@ -255,23 +255,20 @@ input[type="submit"] {
 
 .footer {
 	display: flex;
-	flex-direction: column !important;
-	text-align:start;
-	background-color: #D8D3A8;
-	padding-left: 112px;
-}
-.footer2 {
 	flex-wrap: wrap;
-	font-family: 'Spectral';
+	flex-direction: column !important;
 	font-weight: 800;
 	font-size: 18px;
-	justify-content: center;
+	text-align:center;
+	background-color: #D8D3A8;
 	line-height: 1.1;
+	padding-top: 20px;
+	font-family: 'Spectral';
 }
-.footer3 {
+.footer2 {
 	display: flex;
 	flex-direction: column !important;
-	text-align:start;
+	text-align:center;
 	background-color: #D8D3A8;
 	
 }
